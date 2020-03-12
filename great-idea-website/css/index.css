@@ -66,6 +66,9 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 
+body {
+	border: 30px solid white;
+}
 
 /* Navigation */
 
@@ -91,9 +94,6 @@ nav{
 	width: 100%;
 }
 
-/* body{
-	text-align: center;
-} */
 
 
 /* Header */
@@ -104,6 +104,7 @@ header{
 	width: 90%;
 	display: inline-block;
 	border-bottom: 2px solid black;
+	margin: 3px 10%;
 }
 
 h1{
@@ -133,10 +134,12 @@ button {
 }
 
 
+
 /* Top Text */
 .top-info {
 	display: inline-block;
 	width: 100%;
+	margin: 10px 5%;
 }
 
 .top-info div {
@@ -145,17 +148,35 @@ button {
 	margin: 10px 3%;
 }
 
+
+
+/* Middle Image */
+
+.middle-img {
+	margin: 10px 10%;
+}
+
+
+
 /* Bottom Text */
 
 .bottom-info {
 	display: inline-block;
 	width: 100%;
 	border-bottom: 2px solid black;
-	
+	margin: 10px 5%;
 }
 
 .bottom-info div {
 	display: inline-block;
 	width: 20%;
 	margin: 10px 3%;
+}
+
+
+
+/* Contact Info */
+
+.contact {
+	margin-left: 8%;
 }
