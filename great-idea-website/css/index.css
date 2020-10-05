@@ -64,3 +64,158 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+body {
+	border: 30px solid white;
+	width: 900px;
+	margin: 0 auto;
+}
+
+/* Navigation */
+
+.navigation nav a {
+	color: gray;
+	text-decoration: none;
+	display: inline-block;
+	margin: 15px 3%;
+}
+
+@keyframes navBar {
+	from {
+		color: gray;
+		text-decoration: none;
+	}
+	to {
+		color: midnightblue;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+}
+
+.navigation nav a:hover {
+	animation-name: navBar;
+	animation-duration: 1800ms;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+}	
+
+.logo {
+	display: inline-block;
+	margin: 10px 0;
+}
+
+nav{
+	display: inline-block;
+	width: 75%;
+}
+
+.navigation {
+	display: inline-block;
+	width: 100%;
+	margin: 0 8%;
+}
+
+
+
+/* Header */
+
+header {
+	text-align: center;
+	padding: 30px 0;
+	width: 100%;
+	display: inline-block;
+	border-bottom: 2px solid black;
+	margin: 20px 10%;
+}
+
+h1{
+	display: inline-block;
+	font-size: 500%;
+	text-align: center;
+	margin: 10px 3%;
+}
+
+header div {
+	display: inline-block;
+	width: 35%;
+	margin: 2px 8%;
+}
+
+header img {
+	display: inline-block;
+	margin: 10px 3%;
+	width: 300px;
+	height: auto;
+}
+
+button {
+	font-size: 150%;
+	background: white;
+	margin: 5px 20%;
+	width: 60%;
+}
+
+button:hover {
+	background: midnightblue;
+	color: white;
+	box-shadow: 0 10px 14px 0 darkgray;
+	transition: 500ms;
+}
+
+
+
+/* Top Text */
+
+.top-info {
+	display: inline-block;
+	width: 100%;
+	margin: 10px 10%;
+}
+
+.top-info div {
+	display: inline-block;
+	width: 43%;
+	margin: 10px 3%;
+}
+
+
+
+/* Middle Image */
+
+.middle-img {
+	margin: 10px 8%;
+}
+
+
+
+/* Bottom Text */
+
+.bottom-info {
+	display: inline-block;
+	width: 100%;
+	border-bottom: 2px solid black;
+	margin: 10px 8%;
+}
+
+.bottom-info div {
+	display: inline-block;
+	width: 27%;
+	margin: 10px 3%;
+}
+
+
+
+/* Contact Info */
+
+.contact {
+	margin-left: 12%;
+}
+
+
+
+/* Footer */
+
+footer {
+	text-align: center;
+}
